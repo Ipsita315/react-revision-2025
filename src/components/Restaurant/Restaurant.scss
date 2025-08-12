@@ -1,0 +1,34 @@
+.res-container {
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+.res-card {
+  padding: 10px;
+  border: 1px solid #e6e6e6;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 16px;
+  cursor: pointer;
+
+  img {
+    height: 145px;
+
+    object-fit: cover;
+    border-radius: 16px;
+  }
+}
+
+button.top-res-btn {
+  background: #79e87e;
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: #fff;
+  border: 1px solid #0bea15;
+  cursor: pointer;
+  margin-left: 24px;
+}
+
+

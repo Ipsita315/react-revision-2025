@@ -1,0 +1,11 @@
+section.shimmer-ui-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+
+  .shimmer-card {
+    height: 324px;
+    background: #c5c5c5;
+    border-radius: 20px;
+  }
+}
